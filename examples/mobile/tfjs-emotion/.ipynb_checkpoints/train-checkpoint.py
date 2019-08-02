@@ -92,7 +92,6 @@ model.add(Conv2D(32,
                  #remove input shape (only needed in first one)
                  activation='relu'))
 model.add(MaxPooling2D())
-model.add(Dropout(0.4))#
 model.add(Conv2D(32,
                  (3,3),#(config.first_layer_conv_width, config.first_layer_conv_height),#(3,3)
                  #remove input shape (only needed in first one)
